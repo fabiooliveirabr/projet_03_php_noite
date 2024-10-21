@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap ');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap ');
+:root{
+    --preto: #040301;
+    --dourado: #9C8050;
+    --branco: #FFFFFF;
+    --cinza_escuro: #0D0D0D;
+    --titulos: 'Abhaya Libre';
+    --textos: 'Saira';
+}
+body{
+    margin: 0px;
+    font-family: var(--textos);
+}
+
+#menu_topo{
+    display: flex;
+    background-color: var(--preto);
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#menu_topo img{
+    height: 80px;
+}
+.btnArea{
+    background-color: var(--dourado);
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    font-weight: 700;
+    color: var(--branco);
+}
+#secao1 img{
+    min-height: 400px;
+    height: 40vw;
+    margin-bottom: 50px;
+}
+#secao1{
+    display: flex;
+    background-image: url(imagens/bg1.jpg);
+    background-size: cover;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+#formulario{
+    min-width: 300px;
+    min-height: 400px;
+    max-width: 300px;
+    max-height: 400px;
+    background-color: #48433b89;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--dourado);
+    padding: 40px;
+    margin-right: 80px;
+}
+
+@media screen and (max-width:1024px){
+    #formulario{
+        margin: auto;
+    }
+}
