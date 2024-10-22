@@ -259,6 +259,27 @@ body{
     text-transform: uppercase; /* texto maiusculo */
 }
 
+#rodape{
+    background-color: var(--cinza_escuro);
+    border-top: 1px solid var(--dourado);
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--branco); 
+    flex-wrap: wrap;
+}
+#mensagem{
+    background-color: var(--cinza_escuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--branco);
+    height: 100vh;
+    text-align: center;
+}
+#mensagem img{
+    width: 30vw;
+}
 @media screen and (max-width:1024px){
     #formulario{
         margin: auto;
