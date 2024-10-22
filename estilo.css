@@ -232,6 +232,32 @@ body{
     margin-bottom: 20px;
 }
 
+#secao5{
+    background-color: var(--preto);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    color: var(--branco);
+}
+#conteudo_secao5{
+    /* border: 1px solid red; */
+    min-width: 400px;
+    width: 40vw;
+    height: 500px;
+}
+#foto3{
+    min-height: 500px;
+    height: 35vw;
+    margin-bottom: 50px;
+}
+#conteudo_secao5 h1{
+    color: var(--dourado);
+    font-size: 60px;
+    font-family: var(--titulos);
+    text-transform: uppercase; /* texto maiusculo */
+}
 
 @media screen and (max-width:1024px){
     #formulario{
